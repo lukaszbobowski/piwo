@@ -12,25 +12,25 @@ public class BeerExpert {
         beersData.put(
                 "jasne", new ArrayList<>(
                         Arrays.asList(
-                                new Beer("perla export", 1),
-                                new Beer("perla chmielowa", 2),
-                                new Beer("harnas", 3)
+                                new Beer("perla export", R.drawable.harnas),
+                                new Beer("perla chmielowa", R.drawable.harnas),
+                                new Beer("harnas", R.drawable.harnas)
                 ))
         );
         beersData.put(
                 "ciemne", new ArrayList<>(
                         Arrays.asList(
-                                new Beer("debowe", 1),
-                                new Beer("kuflowe", 2),
-                                new Beer("namyslow", 3)
+                                new Beer("debowe", R.drawable.perla_chmiel),
+                                new Beer("kuflowe", R.drawable.perla_chmiel),
+                                new Beer("namyslow", R.drawable.perla_chmiel)
                         ))
         );
         beersData.put(
                 "brązowe", new ArrayList<>(
                         Arrays.asList(
-                                new Beer("krolewskie", 1),
-                                new Beer("zywiec biale", 2),
-                                new Beer("beczkowe", 3)
+                                new Beer("krolewskie", R.drawable.perla_eksport),
+                                new Beer("zywiec biale", R.drawable.perla_eksport),
+                                new Beer("beczkowe", R.drawable.perla_eksport)
                         ))
         );
         beersData.put(
