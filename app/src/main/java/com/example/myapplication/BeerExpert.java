@@ -41,9 +41,20 @@ public class BeerExpert {
                                 new Beer("imperator", 3)
                         ))
         );
+        beersData.put(
+                "default", new ArrayList<>(
+                        Arrays.asList(
+                                new Beer("tyskie", 1),
+                                new Beer("zubr", 2),
+                                new Beer("perla", 3)
+                        ))
+        );
     }
 
     public ArrayList<Beer> getBrands(String beerType) {
-        return beersData.get(beerType);
+        if(beersData.containsKey(beerType)) {
+            return beersData.get(beerType);
+        }
+        return beersData.get("default");
     }
 }
