@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="beer_expert_answer">
+        Nie wybrano zadnego piwa
+    </string>
+    <string name="find_beer_btn">
+        Odszukaj piwo!
+    </string>
+    <string-array name="beer_types">
+        <item>jasne</item>
+        <item>bursztynowe</item>
+        <item>brązowe</item>
+        <item>ciemne</item>
+    </string-array>
+
+</resources>
