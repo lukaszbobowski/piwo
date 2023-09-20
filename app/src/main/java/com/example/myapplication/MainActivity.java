@@ -17,7 +17,16 @@ public class MainActivity extends AppCompatActivity {
         String selectedType = spn.getSelectedItem().toString();
         //Log.d("info o piwie", selectedType);
         //Toast.makeText(this, selectedType, Toast.LENGTH_SHORT).show();
+        BeerExpert bier = new BeerExpert();
+
         TextView answerTextView = findViewById(R.id.beerAnswerTextView);
-        answerTextView.setText(selectedType);
+
+        String answer = "";
+        for (Beer bir: bier.getBrands(selectedType)) {
+            answer += bir.getName() +"\n";
+        }
+
+        answerTextView.setText(answer);
+
     }
 }

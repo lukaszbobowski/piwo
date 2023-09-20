@@ -8,7 +8,7 @@ public class BeerExpert {
 
     HashMap<String, ArrayList<Beer>> beersData = new HashMap<>();
 
-    public BeerExpert(HashMap<String, ArrayList<Beer>> beersData) {
+    public BeerExpert() {
         beersData.put(
                 "jasne", new ArrayList<>(
                         Arrays.asList(
@@ -26,7 +26,7 @@ public class BeerExpert {
                         ))
         );
         beersData.put(
-                "brazowe", new ArrayList<>(
+                "brązowe", new ArrayList<>(
                         Arrays.asList(
                                 new Beer("krolewskie", 1),
                                 new Beer("zywiec biale", 2),
@@ -34,7 +34,7 @@ public class BeerExpert {
                         ))
         );
         beersData.put(
-                "debowe", new ArrayList<>(
+                "bursztynowe", new ArrayList<>(
                         Arrays.asList(
                                 new Beer("debowe", 1),
                                 new Beer("guiness", 2),
