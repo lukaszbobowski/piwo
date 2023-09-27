@@ -12,5 +12,6 @@
         <item>brązowe</item>
         <item>ciemne</item>
     </string-array>
+    <string name="salto">Zrob salto</string>
 
 </resources>

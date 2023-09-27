@@ -13,16 +13,16 @@ public class BeerExpert {
                 "jasne", new ArrayList<>(
                         Arrays.asList(
                                 new Beer("perla export", R.drawable.harnas),
-                                new Beer("perla chmielowa", R.drawable.harnas),
-                                new Beer("harnas", R.drawable.harnas)
+                                new Beer("perla chmielowa", R.drawable.perla_chmiel),
+                                new Beer("harnas", R.drawable.perla_eksport)
                 ))
         );
         beersData.put(
                 "ciemne", new ArrayList<>(
                         Arrays.asList(
-                                new Beer("debowe", R.drawable.perla_chmiel),
-                                new Beer("kuflowe", R.drawable.perla_chmiel),
-                                new Beer("namyslow", R.drawable.perla_chmiel)
+                                new Beer("debowe", R.drawable.fortuna),
+                                new Beer("kuflowe", R.drawable.ksiazece),
+                                new Beer("namyslow", R.drawable.okocim)
                         ))
         );
         beersData.put(
@@ -36,17 +36,17 @@ public class BeerExpert {
         beersData.put(
                 "bursztynowe", new ArrayList<>(
                         Arrays.asList(
-                                new Beer("debowe", 1),
-                                new Beer("guiness", 2),
-                                new Beer("imperator", 3)
+                                new Beer("debowe", R.drawable.perla_eksport),
+                                new Beer("guiness", R.drawable.perla_eksport),
+                                new Beer("imperator", R.drawable.perla_eksport)
                         ))
         );
         beersData.put(
                 "default", new ArrayList<>(
                         Arrays.asList(
-                                new Beer("tyskie", 1),
-                                new Beer("zubr", 2),
-                                new Beer("perla", 3)
+                                new Beer("tyskie", R.drawable.perla_eksport),
+                                new Beer("zubr", R.drawable.perla_eksport),
+                                new Beer("perla", R.drawable.perla_eksport)
                         ))
         );
     }

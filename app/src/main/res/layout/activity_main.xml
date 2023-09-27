@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -33,6 +36,14 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:text="@string/beer_expert_answer" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salto"
+        android:layout_margin="20dp"
+        android:onClick="salto"
+        android:layout_gravity="center" />
+
     <ImageView
         android:id="@+id/beerImageView2"
         android:layout_width="wrap_content"
@@ -45,6 +56,13 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:text="@string/beer_expert_answer" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salto"
+        android:layout_margin="20dp"
+        android:onClick="salto"
+        android:layout_gravity="center" />
     <ImageView
         android:id="@+id/beerImageView3"
         android:layout_width="wrap_content"
@@ -57,5 +75,12 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:text="@string/beer_expert_answer" />
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salto"
+        android:layout_margin="20dp"
+        android:onClick="salto"
+        android:layout_gravity="center" />
 </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
